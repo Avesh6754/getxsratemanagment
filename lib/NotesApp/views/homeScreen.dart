@@ -12,6 +12,7 @@ class HomePage extends StatelessWidget {
     NotesController controller = Get.put(NotesController());
 
     return Scaffold(
+
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: const Text(
