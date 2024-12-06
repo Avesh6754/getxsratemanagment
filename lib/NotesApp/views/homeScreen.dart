@@ -21,6 +21,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
+
         child:Obx(() =>  Column(
           children: [
             const SizedBox(
